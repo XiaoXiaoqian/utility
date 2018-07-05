@@ -28,7 +28,7 @@ chosed_col=[
 'rebeccapurple']
 
 #save .txt file
-np.savetxt(mean_dis_1mBaseline_file, mean_disMat_1mBaselie, fmt='%f')
+np.savetxt('chosed_color_set.txt', chosed_col, fmt='%s')
 
 #show the color set
 sorted_names=chosed_col
